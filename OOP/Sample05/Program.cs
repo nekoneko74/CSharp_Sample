@@ -124,10 +124,6 @@ namespace OOP.Sample05
             {
                 Console.WriteLine("例外が発生しました：" + ex.Message);
             }
-
-            // 何かキーが入力されるまで待機する
-            Console.WriteLine("何かキーを押すと終了します");
-            Console.ReadKey();
         }
 
         /// <summary>

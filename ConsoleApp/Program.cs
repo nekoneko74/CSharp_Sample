@@ -21,11 +21,6 @@ namespace ConsoleApp
             // 入力された文字列をコンソールに出力する
             Console.WriteLine("入力された文字列は" + inputString + "です");
             // Console.WriteLine("入力された文字列は{0}です", inputString);
-
-            // 何かキーが入力されるまで待機する
-            //  ⇒ Console.ReadKey()をコメントアウトすると…？
-            Console.WriteLine("何かキーを押すと終了します");
-            Console.ReadKey();
         }
     }
 }
